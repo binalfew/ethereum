@@ -39,3 +39,9 @@ contract Lottery {
        players = new address payable[](0); // reset the lottery
     }
 }
+
+// Additional features
+// Change the contract so that the manager of the lottery cannot participate in the lottery
+// Change the contract so that the manager is automatically added to the lottery without sending any ether
+// Chagne the contract so that anyone can pick the winner and finish the lottery if there are at least 10 players
+// Change the contract so that the manager receives a fee of 10% of the lottery funds
